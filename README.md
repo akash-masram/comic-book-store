@@ -10,7 +10,7 @@ This is a RESTful API for managing a comic book inventory. It allows users to cr
 - [Testing with Thunder Client](#testing-with-thunder-client)
 - [Error Handling](#error-handling)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - Create, read, update, and delete comic books.
@@ -85,7 +85,7 @@ Thunder Client can be used to test the API endpoints directly from Visual Studio
 - **Method :** ``` POST ```
 - **URL :** ``` /api/comics ```
 - **Body :** JSON format
-![My Image](`./screenshots/create.png`)
+![My Image](./screenshots/create.png)
 
 ### 2. Get All Comics with Pagination, Filtering, and Sorting
 - **Method :** ``` GET ```
@@ -96,26 +96,26 @@ Thunder Client can be used to test the API endpoints directly from Visual Studio
   - ``` sortBy ```: Field to sort by (default:``` bookName```)   
   - ``` filter ```:Filter conditions like ```authorName```, ```yearOfPublication```, ```condition```.    
 
-![My Image](`./screenshots/get-query.png`)
+![My Image](./screenshots/get-query.png)
 
 
 
 ### 3. Get Comic by ID
-- **Method :** ``` POST ```
+- **Method :** ``` GET ```
 - **URL :** ``` /api/comics/:id ```
 - **Body :** JSON format
-![My Image](`./screenshots/get-id.png`)
+![My Image](./screenshots/get-id.png)
 
 ### 4. Update a Comic by ID
 - **Method :** ``` PUT ```
 - **URL :** ``` /api/comics/:id ```
 - **Body :** JSON format
-![My Image](`./screenshots/update.png`)
+![My Image](./screenshots/update.png)
 
 ### 5. Delete a Comic by ID
 - **Method :** ``` DELETE ```
 - **URL :** ``` /api/comics/:id ```
-![My Image](`./screenshots/delete.png`)
+![My Image](./screenshots/delete.png)
 
 
 

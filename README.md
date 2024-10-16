@@ -85,7 +85,7 @@ Thunder Client can be used to test the API endpoints directly from Visual Studio
 - **Method :** ``` POST ```
 - **URL :** ``` /api/comics ```
 - **Body :** JSON format
-
+![My Image](`./screenshots/create.png`)
 
 ### 2. Get All Comics with Pagination, Filtering, and Sorting
 - **Method :** ``` GET ```
@@ -96,9 +96,7 @@ Thunder Client can be used to test the API endpoints directly from Visual Studio
   - ``` sortBy ```: Field to sort by (default:``` bookName```)   
   - ``` filter ```:Filter conditions like ```authorName```, ```yearOfPublication```, ```condition```.    
 
-### Screenshots
-
-![My Image](`C:\Users\Nirmal\Pictures\Screenshots\Screenshot 2024-10-16 134523.png`)
+![My Image](`./screenshots/get-query.png`)
 
 
 
@@ -106,18 +104,18 @@ Thunder Client can be used to test the API endpoints directly from Visual Studio
 - **Method :** ``` POST ```
 - **URL :** ``` /api/comics/:id ```
 - **Body :** JSON format
-![My Image](`C:\Users\Nirmal\Pictures\Screenshots\Screenshot 2024-10-16 134523.png`)
+![My Image](`./screenshots/get-id.png`)
 
 ### 4. Update a Comic by ID
 - **Method :** ``` PUT ```
 - **URL :** ``` /api/comics/:id ```
 - **Body :** JSON format
-![My Image](`C:\Users\Nirmal\Pictures\Screenshots\Screenshot 2024-10-16 134523.png`)
+![My Image](`./screenshots/update.png`)
 
 ### 5. Delete a Comic by ID
 - **Method :** ``` DELETE ```
 - **URL :** ``` /api/comics/:id ```
-![My Image](`C:\Users\Nirmal\Pictures\Screenshots\Screenshot 2024-10-16 134523.png`)
+![My Image](`./screenshots/delete.png`)
 
 
 
